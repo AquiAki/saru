@@ -59,6 +59,8 @@
 		65256FFD25DF59E0007C0037 /* psoas minor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65256FFB25DF59E0007C0037 /* psoas minor.mp3 */; };
 		6525700525DF5C0F007C0037 /* triceps surae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6525700425DF5C0F007C0037 /* triceps surae.mp3 */; };
 		652CD0B525DCA98B00E8137A /* BeginnerMiddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652CD0B425DCA98B00E8137A /* BeginnerMiddle.swift */; };
+		653014CB25EB6F66009C72ED /* origin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 653014C925EB6F66009C72ED /* origin.mp3 */; };
+		653014CC25EB6F66009C72ED /* insertion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 653014CA25EB6F66009C72ED /* insertion.mp3 */; };
 		6541590025DF4C6000077F46 /* puborectalis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 654158FF25DF4C6000077F46 /* puborectalis.mp3 */; };
 		655A3D0525DA5BA500BEFEAA /* BeginnerUpper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655A3D0425DA5BA500BEFEAA /* BeginnerUpper.swift */; };
 		655A3D0A25DA694C00BEFEAA /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655A3D0925DA694C00BEFEAA /* List.swift */; };
@@ -454,6 +456,8 @@
 		65256FFB25DF59E0007C0037 /* psoas minor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "psoas minor.mp3"; sourceTree = "<group>"; };
 		6525700425DF5C0F007C0037 /* triceps surae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "triceps surae.mp3"; sourceTree = "<group>"; };
 		652CD0B425DCA98B00E8137A /* BeginnerMiddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginnerMiddle.swift; sourceTree = "<group>"; };
+		653014C925EB6F66009C72ED /* origin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = origin.mp3; sourceTree = "<group>"; };
+		653014CA25EB6F66009C72ED /* insertion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = insertion.mp3; sourceTree = "<group>"; };
 		654158FF25DF4C6000077F46 /* puborectalis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = puborectalis.mp3; sourceTree = "<group>"; };
 		655A3D0425DA5BA500BEFEAA /* BeginnerUpper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginnerUpper.swift; sourceTree = "<group>"; };
 		655A3D0925DA694C00BEFEAA /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
@@ -1257,6 +1261,8 @@
 				65D1F50B25E69BB100A818BA /* inferior oblique.mp3 */,
 				656E21D025E792560049D76E /* QuizRight.mp3 */,
 				655E012E25E3CEC600D170F2 /* obturator internus.mp3 */,
+				653014CA25EB6F66009C72ED /* insertion.mp3 */,
+				653014C925EB6F66009C72ED /* origin.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -1634,6 +1640,7 @@
 				65B2A7EB25DFDBCD0044B963 /* mylohyoid.mp3 in Resources */,
 				65B3C85825E0FFA200D0280C /* extensor indicis.mp3 in Resources */,
 				65B2A82825DFF9280044B963 /* longissimus cervicis.mp3 in Resources */,
+				653014CB25EB6F66009C72ED /* origin.mp3 in Resources */,
 				65B3C86025E0FFA200D0280C /* annular ligament of radius.mp3 in Resources */,
 				65B3C89125E13A3900D0280C /* sartorius.mp3 in Resources */,
 				65B2A7C825DFDBCD0044B963 /* superior longitudinal muscle of tongue.mp3 in Resources */,
@@ -1691,6 +1698,7 @@
 				65B2A84125DFF9280044B963 /* extensor retinaculum.mp3 in Resources */,
 				650CFE7B25DE58A800BBF52F /* hyperextension.mp3 in Resources */,
 				65B2A83325DFF9280044B963 /* palmar aponeurosis.mp3 in Resources */,
+				653014CC25EB6F66009C72ED /* insertion.mp3 in Resources */,
 				65B2A84325DFF9280044B963 /* iliocostalis lumborum.mp3 in Resources */,
 				65B3C75D25E0A33B00D0280C /* suprapiriform foramen.mp3 in Resources */,
 				65B3C89625E13A3900D0280C /* adductor minimus.mp3 in Resources */,
@@ -1944,7 +1952,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.akihirokimura.----saru";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akihirokimura.saru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1963,7 +1971,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.akihirokimura.----saru";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akihirokimura.saru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
